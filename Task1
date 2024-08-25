@@ -1,0 +1,26 @@
+Password strength checker:
+import re
+
+def check_password_strength(password):
+  """Checks the strength of a password based on common criteria."""
+
+  if len(password) < 8:
+    return "Weak: Too short"
+
+  if not re.search("[a-z]", password):
+    return "Weak: Missing lowercase letter"
+
+  if not re.search("[A-Z]", password):
+    return "Weak: Missing uppercase letter"
+
+  if not re.search("[0-9]", password):
+    return "Weak: Missing digit"
+
+  if not re.search("[!@#$%^&*()_+=[\]{};':\"\\|,.<>/?]", password):
+    return "Weak: Missing special character"
+
+  return "Strong"
+
+password = input("Enter a password: ")
+strength = check_password_strength(password)
+print(strength)
