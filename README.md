@@ -14,7 +14,8 @@ Overview of the project:
 
 Project:PASSWORD STRENGTH CHECKER
 
-Output:![WhatsApp Image 2024-09-06 at 7 10 18 PM](https://github.com/user-attachments/assets/fb879b14-fd22-4f86-9f84-dcda2c447dbb)
+Output:![WhatsApp Image 2024-09-06 at 7 52 14 PM](https://github.com/user-attachments/assets/ed9eef02-3f54-4d44-a201-6f6d1496ab0a)
+
 
 
 objective:Deveolp a tool to assess the strength of passwords entered by users.Implement algorithms to analyze factors such as length,complexity, and uniqueness to provide feedback on password strength
