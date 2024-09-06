@@ -13,6 +13,7 @@ Mentor:Neela santhosh kumar
 Overview of the project:
 
 Project:PASSWORD STRENGTH CHECKER
+Output:https://github.com/Rudrojuvinitha/CODETECH-task1
 
 objective:Deveolp a tool to assess the strength of passwords entered by users.Implement algorithms to analyze factors such as length,complexity, and uniqueness to provide feedback on password strength
 
